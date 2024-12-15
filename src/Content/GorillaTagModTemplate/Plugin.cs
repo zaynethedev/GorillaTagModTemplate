@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Reflection;
-using BepInEx;
-using UnityEngine;
+using Harmony;
 
 namespace GorillaTagModTemplateProject
 {
@@ -9,7 +7,6 @@ namespace GorillaTagModTemplateProject
 	public class Plugin : BaseUnityPlugin
 	{
 		bool inRoom;
-        public const string InstanceId = PluginInfo.GUID;
 
         void Start()
 		{
