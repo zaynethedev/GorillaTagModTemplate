@@ -1,5 +1,5 @@
-﻿using System;
-using Harmony;
+﻿using BepInEx;
+using HarmonyLib;
 
 namespace GorillaTagModTemplateProject
 {
